@@ -7,7 +7,7 @@ class coladinamica{
         this.primero=this.ultimo=Null;
     } 
     
-    public void ingresar(){
+    public void ingresar(nodo nuevo object Y){
         Nodo nuevo = New nodo(Y);
         if(this.primero==null){
             this.primero=this.ultimo=nuevo;
