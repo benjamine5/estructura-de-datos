@@ -20,12 +20,12 @@ class coladinamica{
         if (this.primero==Null){
             println("vacio");
         }else{
-            this.primero=this.primero.Enlace;
+            this.primero=this.primero.getsiguiente();
         }
     }
     
     public void mostrar(){
-        nodo aux;
+        nodo aux=new nodo(this.primero);
         while(aux != Null){
             println(aux.getdato());
             aux= aux.getsiguente();
