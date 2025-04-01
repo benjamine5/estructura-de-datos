@@ -1,0 +1,27 @@
+Class Nodo{
+    private Object dato;
+    private Nodo Enlace;
+    
+    
+    public Nodo(Object X){
+        this.dato=X;
+        this.Enlace=Null;
+    } 
+    
+    
+    public object getdato(){
+        return this.dato;
+    }
+    
+    public Nodo getsiguiente(){
+        return this.Enlace;
+    }
+    
+    public void Setdato(){
+        this.dato=X;
+    }
+    
+    public void Setsiguiente(){
+        this.Enlace=X;
+    }
+}
