@@ -1,0 +1,34 @@
+class coladinamica{
+    private Nodo primero;
+    private Nodo ultimo;
+    
+    
+    public coladinamica(){
+        this.primero=this.ultimo=Null;
+    } 
+    
+    public void ingresar(){
+        Nodo nuevo = New nodo(Y);
+        if(this.primero==null){
+            this.primero=this.ultimo=nuevo;
+        }else{
+            this.ultimo.Set.siguiente(nuevo);
+        }
+    }
+    
+    public void eliminar(){
+        if (this.primero==Null){
+            println("vacio");
+        }else{
+            this.primero=this.primero.Enlace;
+        }
+    }
+    
+    public void mostrar(){
+        nodo aux;
+        while(aux != Null){
+            println(aux.getdato());
+            aux= aux.getsiguente();
+        }
+    }
+}
